@@ -34,11 +34,5 @@ module.exports = merge(common, {
 			}
 		]
 	},
-	mode: 'development',
-	/* Delete devServer if you don't need to proxy */
-	devServer: {
-		proxy: {
-			'/games': 'http://localhost:3010'
-		}
-	}
+	mode: 'development'
 })
